@@ -28,8 +28,7 @@ btnRoll.addEventListener('click',function(){
         document.querySelector('#current-'+activePlayer).textContent = roundScore;
 
     }else{
-
-        nextPlayer();
+        setTimeout(nextPlayer,250);
     }
 });
 
